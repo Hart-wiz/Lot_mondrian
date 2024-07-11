@@ -1,0 +1,56 @@
+ /*...............................containers and frames....................................*/
+      .container {
+        background-color: aliceblue;
+        width: auto;
+        height: auto;
+      }
+      .frame {
+        background-color: black;
+        width: 500px;
+        height: 500px;
+        padding: 0.3rem;
+        display: grid;
+        gap: 0.4rem;
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: 1fr 1fr;
+      }
+
+      /*...........................boxes..........................................*/
+      #red {
+        background-color: red;
+      }
+      #whiteA {
+        background-color: white;
+      }
+      #whiteB {
+        background-color: white;
+      }
+      #ashA {
+        background-color: azure;
+      }
+      /*...................................boxes inside rtbottom...........................*/
+      .rtbottom {
+        background-color: black;
+        display: grid;
+        gap: 0.4rem;
+        grid-template-columns: 3fr 2fr 1fr;
+        grid-template-rows: 4fr 4.5fr 1fr;
+      }
+      #azure {
+        background-color: azure;
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      #blue {
+        background-color: blue;
+      }
+      #whiteC {
+        background-color: white;
+        grid-row: span 2;
+      }
+      #yellow {
+        background-color: yellow;
+      }
+      #black {
+        background-color: black;
+      }
